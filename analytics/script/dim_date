@@ -1,0 +1,20 @@
+Dim_Date = 
+ADDCOLUMNS (
+    CALENDAR (
+        MIN ( 'gold fact_sales'[order_date] ),
+        MAX ( 'gold fact_sales'[due_date] )
+    ),
+    "Year", YEAR ( [Date] ),
+    "Quarter", "Q" & QUARTER ( [Date] ),
+    "Month Number", MONTH ( [Date] ),
+    "Month Name", FORMAT ( [Date], "MMMM" ),
+    "Month Short", FORMAT ( [Date], "MMM" ),
+    "Year-Month", FORMAT ( [Date], "YYYY-MM" ),
+    "Month Year", FORMAT ( [Date], "MMM YYYY" ),
+    "Week Number", WEEKNUM ( [Date] ),
+    "Day", DAY ( [Date] ),
+    "Day Name", FORMAT ( [Date], "dddd" ),
+    "Day Short", FORMAT ( [Date], "ddd" ),
+    "Day of Week", WEEKDAY ( [Date], 2 ),
+    "Is Weekend", IF ( WEEKDAY ( [Date], 2 ) >= 6, "Yes", "No" )
+)
