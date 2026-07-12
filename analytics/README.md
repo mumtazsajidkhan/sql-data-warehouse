@@ -14,3 +14,6 @@ Develop Power BI-Based Analytics to deliver detailed insights into:
  
  
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+#### Data Quality Issues
+**order_date** - it have null values
