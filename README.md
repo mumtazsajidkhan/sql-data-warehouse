@@ -1,9 +1,17 @@
-# Data Warehouse - SQL
+# Data Warehouse & Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** Repository!
 
 This Project Demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to genrating actionable insights.Designed as a portfolio project highlights industry best practices in the data engineering and analytics.
+---
+### SQL Exploratory Data Analysis (EDA)
+---
+## Overview
+This project performs **Exploratory Data Analysis (EDA)** using SQL to understand business performance, customer behavior, product performance, and sales trends from a relational data warehouse.
 
+➡️ **EDA Github Repository:** https://github.com/mumtazsajidkhan/Sales_Analytics-SQL/tree/main/Exploratory%20Data%20Analysis
+
+---
 ### Project Planning
 https://peat-dresser-de9.notion.site/Data-Warehouse-Project-SQL-1478b8abd0ad83e89816012f5b3b3473
 ---
